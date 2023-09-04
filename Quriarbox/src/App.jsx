@@ -1,19 +1,16 @@
 
-// import './App.css'
+import './App.css'
+
+import Nav from "./components/nav/Nav"
 
 function App() {
  
 
   return (
-    <>
-     <h1 className="text-3xl text-center text-amber-600">
-      Hello world!
-    </h1>     
-     <h1 className="text-3xl text-center">
-      Hello world!
-    </h1>     
+    <div>
+       <Nav></Nav>  
          
-    </>
+    </div>
   )
 }
 
